@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<table>
+  <% for(var user of users) {%>
+                <tr>
+                    <td>
+                        <%=user.id_produit%>
+                    </td>
+                    <td>
+                        <%=user.nom_produit%>
+                    </td>
+                    <td>
+                        <%=user.prix_produit%>
+                    </td>
+                    <td>
+                        <%=user.marque_produit%>
+                    </td>
+                </tr>
+                <% } %>
+</table>
+
+
+  </body>
+</html>

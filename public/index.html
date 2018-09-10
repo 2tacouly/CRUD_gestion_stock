@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS - Node Connect Mysql</title>
+    <script src="js/app.js"></script>
+    <script src="ejs/ejs.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- <script src="js/trycatch.js"></script> -->
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body id="tp_node_connect_mysql">
+    <!-- <h1 id="title_main" class="title">JS - Node Connect Mysql</h1>
+    <div id="todos">
+      <div class="todo">
+        <h2 class="title">1 - GET</h2>
+        <p>
+          Connecter votre serveur node à mysql.<br>
+          Utiliser ajax pour requêter le serveur.<br>
+          Récupérer une liste de résultat : par exemple tous les users
+          de la table user.<br>
+          Faire l'affichage HTML sous forme de liste OU de table.
+        </p>
+      </div>
+      <div class="todo">
+        <h2 class="title">2 - POST</h2>
+        <p>
+          Créer un formulaire pour saisir les informations d'un user.<br>
+          Au click sur un boutton, envoyer les données en POST vers le serveur node via AJAX.<br>
+          Votre application express récupère le post.<br>
+          Passer ensuite les données à la méthode appropriée de votre fichier database.js
+        </p>
+      </div>
+      <div class="todo">
+        <h2 class="title">3 - DELETE</h2>
+        <p>
+          Créer un formulaire pour saisir les informations d'un user.<br>
+          Au click sur un boutton, envoyer les données en POST vers le serveur node via AJAX.<br>
+          Votre application express récupère le post.<br>
+          Passer ensuite les données à la méthode appropriée de votre fichier database.js
+        </p>
+      </div>
+      <div class="todo">
+        <h2 class="title">4 - UPDATE</h2>
+        <p>
+          Touver un moyen de selectionner un user de la liste. Au click sur une icône, afficher un formulaire pour éditer les informations de l'utilisateur selectionné.
+          Effectuer un appel AJAX vers le serveur. Exécuter une méthode pour mettre la BDD à jour.
+        </p>
+      </div>
+    </div>
+    <div id="form_utils">
+      <div id="form_btns">
+        <button id="btn_get_user" class="btn">get user</button>
+        <button id="btn_del_user" class="btn">delete user(s)</button>
+      </div>
+      <form id="form_user" method="POST">
+        <h3 class="title">
+          <span id="user_info">Create new user</span>
+        </h3>
+        <input type="hidden" id="user_id">
+        <input type="text" id="user_name" value="testname">
+        <input type="text" id="user_lastname" value="testlasname">
+        <input type="email"  id="user_email" value="test@test.test">
+        <button id="btn_new_user" class="btn">create</button>
+        <button id="btn_edit_user" class="btn is-hidden">edit</button>
+      </form>
+    </div>
+    <ul id="list_user">
+      <li class="item empty">aucun utilisateur pour le moment...</li>
+    </ul> -->
+
+    <table id="tableau">
+      <tr><td>yoo</td></tr>
+    </table>
+    <input id="btnIdex" type="button" name="" value="voir les produits">
+    <!-- <a href="http://localhost:5555/produit"></a> -->
+
+    <div class="">
+      <input id="inpNomP" type="text" name="" value="" placeholder="Nom du produit">
+      <input id="inpprixP" type="text" name="" value="" placeholder="Prix du produit">
+      <select id="inpMarqueP" class="" name="">
+        <option value="1">Levis</option>
+        <option value="2">Nike</option>
+        <option value="3">Adidas</option>
+        <option value="4">Filas</option>
+        <option value="5">Lacoste</option>
+      </select>
+
+      <input id="sendUser" type="button" name="" value="ajout d'un produit">
+    </div>
+
+
+  </body>
+</html>
